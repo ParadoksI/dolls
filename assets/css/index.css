@@ -1,0 +1,71 @@
+:root { 
+    --main-pink : rgba(176, 106, 179, 1);
+    --blue-main: rgba(69, 104, 220, 1);
+    --white-1: rgba(250, 242, 251, 1);
+    --white-2: rgba(245, 228, 245, 1);
+    --black-1: rgba(31, 31, 31, 1);
+    --grey-1: rgba(166, 166, 166, 1);
+    --grad-top: rgba(69, 104, 220, 1);
+    --grad-bot: rgba(176, 106, 179, 1);
+}
+
+body { 
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and ( min-width: 1000px) {
+    .main { 
+        max-width: 1315px;
+        overflow: hidden;
+        
+    }
+
+    .wrapper { 
+        max-width: 1315px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header { 
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100vw;
+
+    }
+
+    .header__content { 
+        display: flex;
+        gap: 20px;
+        padding: 20px 0px 15px 0px;
+        max-width: 1200px;
+    }
+
+    .header__more { 
+        width: 38px;
+        height: 38px;
+        
+    }
+
+    .header__list { 
+        display: flex;
+        gap: 15px;
+    }
+
+    .header__list li { 
+        padding: 8px 20px;
+        border: rgba(31, 31, 31, 1) 1px solid;
+        border-radius: 30px;
+        text-wrap: nowrap;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    
+}
