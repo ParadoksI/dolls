@@ -1,46 +1,737 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
-      rel="stylesheet"
-    />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+            rel="stylesheet"
+        />
 
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/fonts.css" />
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/fonts.css" />
 
-    <link rel="stylesheet" href="./assets/css/index.css">
-    <title>Test</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="wrapper">
-        <div class="header__content">
-          <div class="header__more">
-            <img src="./assets/img/header__btn.svg" alt="">
-          </div>
-          <ul class="header__list">
-            <li>Sit amet </li>
-            <li>consectetur</li>
-            <li>Venenatis hac</li>
-            <li>Sit amet </li>
-            <li>consectetur</li>
-            <li>Venenatis hac</li>
-            <li>Sit amet </li>
-            <li>consectetur</li>
-            <li>consectetur</li>
-            <li>consectetur</li>
-          </ul>
-        </div>
-      </div>
-    </header>
-    <main class="main">
-      
-    </main>
-  </body>
+        <link rel="stylesheet" href="./assets/css/index.css" />
+        <link rel="stylesheet" href="./assets/css/ribbon.css" />
+        <title>Test</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="wrapper">
+                <div class="header__content">
+                    <div class="header__more">
+                        <img src="./assets/img/header__btn.svg" alt="" />
+                    </div>
+                    <div class="header__list__container">
+                        <ul class="header__list">
+                            <li>Sit amet</li>
+                            <li>consectetur</li>
+                            <li>Venenatis hac</li>
+                            <li>Sit amet</li>
+                            <li>consectetur</li>
+                            <li>Venenatis hac</li>
+                            <li>Sit amet</li>
+                            <li>consectetur</li>
+                            <li>consectetur</li>
+                            <li>consectetur</li>
+                        </ul>
+                        <img
+                            class="header__more__icon"
+                            src="./assets/img/header__more.svg"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="wrapper main__wrapper">
+                <section class="ribbon">
+                    <div class="container ribbon__container">
+                        <div class="post">
+                            <div class="post__title">
+                                <img
+                                    src="./assets/img/post_av.svg"
+                                    alt="post-avatar"
+                                />
+                                <div class="post__title__disc">
+                                    <strong>Lorem ipsum dolor </strong>
+                                    <p>35 minutes ago</p>
+                                </div>
+                                <div class="post__title__more">
+                                    <div class="post__title__more__dot"></div>
+                                    <div class="post__title__more__dot"></div>
+                                    <div class="post__title__more__dot"></div>
+                                </div>
+                            </div>
+                            <div class="post__image">
+                                <img
+                                    class="post__main__image"
+                                    src="./assets/img/post__img.svg"
+                                    alt="image-of-post"
+                                />
+                                <p class="post__image__disc">
+                                    Lorem ipsum dolor sit amet consectetur.
+                                    Consequat sapien tincidunt ultrices faucibus
+                                    elit. Quis leo nunc aliquam tortor faucibus.
+                                    Viverra aliquet sit tristique dolor sit nunc
+                                    ultricies feugiat.
+                                </p>
+                                <div class="post__func">
+                                    <div class="post__func__ux">
+                                        <div class="post__func__point">
+                                            <img
+                                                src="./assets/img/post_com.svg"
+                                                alt="comment"
+                                            />
+                                            <p>1.2k</p>
+                                        </div>
+                                        <div class="post__func__point">
+                                            <img
+                                                src="./assets/img/post_like.svg"
+                                                alt="like"
+                                            />
+                                            <p>1.2k</p>
+                                        </div>
+                                        <div class="post__func__point">
+                                            <img
+                                                src="./assets/img/post_watch.svg"
+                                                alt="vatch"
+                                            />
+                                            <p>1.2k</p>
+                                        </div>
+                                    </div>
+                                    <div class="post__func__save">
+                                        <img
+                                            src="./assets/img/post_save.svg"
+                                            alt="save-the-post"
+                                        />
+                                        <img
+                                            src="./assets/img/post_ex.svg"
+                                            alt="export-post"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post__comment">
+                                <div class="post__comment__item">
+                                    <img
+                                        class="post__comment__item__img"
+                                        src="./assets/img/post_com_av.svg"
+                                        alt="avater-of-commentator"
+                                    />
+                                    <div class="post__comment__content">
+                                        <p class="post__comment__title">
+                                            Lorem ipsum dolor
+                                        </p>
+                                        <p class="post__comment__disc">
+                                            Lorem ipsum dolor sit amet
+                                            consectetur. Consequat sapien
+                                            tincidunt ultrices faucibus elit.
+                                        </p>
+                                        <div class="post__comment__footer">
+                                            <div
+                                                class="post__comment__footer__func"
+                                            >
+                                                <span>5 minutes ago</span>
+                                                <span id="reply">Reply</span>
+                                                <span id="forward"
+                                                    >Forward</span
+                                                >
+                                            </div>
+                                            <div
+                                                class="post__comment__footer__like"
+                                            >
+                                                <img
+                                                    src="./assets/img/post_like.svg"
+                                                    alt="comment-like"
+                                                />
+                                                <p>155</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post__comment__item">
+                                    <img
+                                        class="post__comment__item__img"
+                                        src="./assets/img/post_com_av.svg"
+                                        alt="avater-of-commentator"
+                                    />
+                                    <div class="post__comment__content">
+                                        <p class="post__comment__title">
+                                            Lorem ipsum dolor
+                                        </p>
+                                        <p class="post__comment__disc">
+                                            Lorem ipsum dolor sit amet
+                                            consectetur. Consequat sapien
+                                            tincidunt ultrices faucibus elit.
+                                        </p>
+                                        <div class="post__comment__footer">
+                                            <div
+                                                class="post__comment__footer__func"
+                                            >
+                                                <span>5 minutes ago</span>
+                                                <span id="reply">Reply</span>
+                                                <span id="forward"
+                                                    >Forward</span
+                                                >
+                                            </div>
+                                            <div
+                                                class="post__comment__footer__like"
+                                            >
+                                                <img
+                                                    src="./assets/img/post_like.svg"
+                                                    alt=""
+                                                />
+                                                <p>155</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post__comment__item">
+                                    <img
+                                        class="post__comment__item__img"
+                                        src="./assets/img/post_com_av.svg"
+                                        alt="avater-of-commentator"
+                                    />
+                                    <div class="post__comment__content">
+                                        <p class="post__comment__title">
+                                            Lorem ipsum dolor
+                                        </p>
+                                        <p class="post__comment__disc">
+                                            Lorem ipsum dolor sit amet
+                                            consectetur. Consequat sapien
+                                            tincidunt ultrices faucibus elit.
+                                        </p>
+                                        <div class="post__comment__footer">
+                                            <div
+                                                class="post__comment__footer__func"
+                                            >
+                                                <span>5 minutes ago</span>
+                                                <span id="reply">Reply</span>
+                                                <span id="forward"
+                                                    >Forward</span
+                                                >
+                                            </div>
+                                            <div
+                                                class="post__comment__footer__like"
+                                            >
+                                                <img
+                                                    src="./assets/img/post_like.svg"
+                                                    alt=""
+                                                />
+                                                <p>155</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <a class="post__link__show" href="">
+                                <div class="post__comment__show">
+                                    Show More
+                                </div>
+                            </a>
+                        </div>
+                        <div class="post">
+                            <div class="post__title">
+                                <img
+                                    src="./assets/img/post_av.svg"
+                                    alt="post-avatar"
+                                />
+                                <div class="post__title__disc">
+                                    <strong>Lorem ipsum dolor </strong>
+                                    <p>35 minutes ago</p>
+                                </div>
+                                <div class="post__title__more">
+                                    <div class="post__title__more__dot"></div>
+                                    <div class="post__title__more__dot"></div>
+                                    <div class="post__title__more__dot"></div>
+                                </div>
+                            </div>
+                            <div class="post__image">
+                                <img
+                                    class="post__main__image"
+                                    src="./assets/img/post__img.svg"
+                                    alt="image-of-post"
+                                />
+                                <p class="post__image__disc">
+                                    Lorem ipsum dolor sit amet consectetur.
+                                    Consequat sapien tincidunt ultrices faucibus
+                                    elit. Quis leo nunc aliquam tortor faucibus.
+                                    Viverra aliquet sit tristique dolor sit nunc
+                                    ultricies feugiat.
+                                </p>
+                                <div class="post__func">
+                                    <div class="post__func__ux">
+                                        <div class="post__func__point">
+                                            <img
+                                                src="./assets/img/post_com.svg"
+                                                alt="comment"
+                                            />
+                                            <p>1.2k</p>
+                                        </div>
+                                        <div class="post__func__point">
+                                            <img
+                                                src="./assets/img/post_like.svg"
+                                                alt="like"
+                                            />
+                                            <p>1.2k</p>
+                                        </div>
+                                        <div class="post__func__point">
+                                            <img
+                                                src="./assets/img/post_watch.svg"
+                                                alt="vatch"
+                                            />
+                                            <p>1.2k</p>
+                                        </div>
+                                    </div>
+                                    <div class="post__func__save">
+                                        <img
+                                            src="./assets/img/post_save.svg"
+                                            alt="save-the-post"
+                                        />
+                                        <img
+                                            src="./assets/img/post_ex.svg"
+                                            alt="export-post"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post__comment">
+                                <div class="post__comment__item">
+                                    <img
+                                        class="post__comment__item__img"
+                                        src="./assets/img/post_com_av.svg"
+                                        alt="avater-of-commentator"
+                                    />
+                                    <div class="post__comment__content">
+                                        <p class="post__comment__title">
+                                            Lorem ipsum dolor
+                                        </p>
+                                        <p class="post__comment__disc">
+                                            Lorem ipsum dolor sit amet
+                                            consectetur. Consequat sapien
+                                            tincidunt ultrices faucibus elit.
+                                        </p>
+                                        <div class="post__comment__footer">
+                                            <div
+                                                class="post__comment__footer__func"
+                                            >
+                                                <span>5 minutes ago</span>
+                                                <span id="reply">Reply</span>
+                                                <span id="forward"
+                                                    >Forward</span
+                                                >
+                                            </div>
+                                            <div
+                                                class="post__comment__footer__like"
+                                            >
+                                                <img
+                                                    src="./assets/img/post_like.svg"
+                                                    alt="comment-like"
+                                                />
+                                                <p>155</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post__comment__item">
+                                    <img
+                                        class="post__comment__item__img"
+                                        src="./assets/img/post_com_av.svg"
+                                        alt="avater-of-commentator"
+                                    />
+                                    <div class="post__comment__content">
+                                        <p class="post__comment__title">
+                                            Lorem ipsum dolor
+                                        </p>
+                                        <p class="post__comment__disc">
+                                            Lorem ipsum dolor sit amet
+                                            consectetur. Consequat sapien
+                                            tincidunt ultrices faucibus elit.
+                                        </p>
+                                        <div class="post__comment__footer">
+                                            <div
+                                                class="post__comment__footer__func"
+                                            >
+                                                <span>5 minutes ago</span>
+                                                <span id="reply">Reply</span>
+                                                <span id="forward"
+                                                    >Forward</span
+                                                >
+                                            </div>
+                                            <div
+                                                class="post__comment__footer__like"
+                                            >
+                                                <img
+                                                    src="./assets/img/post_like.svg"
+                                                    alt=""
+                                                />
+                                                <p>155</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post__comment__item">
+                                    <img
+                                        class="post__comment__item__img"
+                                        src="./assets/img/post_com_av.svg"
+                                        alt="avater-of-commentator"
+                                    />
+                                    <div class="post__comment__content">
+                                        <p class="post__comment__title">
+                                            Lorem ipsum dolor
+                                        </p>
+                                        <p class="post__comment__disc">
+                                            Lorem ipsum dolor sit amet
+                                            consectetur. Consequat sapien
+                                            tincidunt ultrices faucibus elit.
+                                        </p>
+                                        <div class="post__comment__footer">
+                                            <div
+                                                class="post__comment__footer__func"
+                                            >
+                                                <span>5 minutes ago</span>
+                                                <span id="reply">Reply</span>
+                                                <span id="forward"
+                                                    >Forward</span
+                                                >
+                                            </div>
+                                            <div
+                                                class="post__comment__footer__like"
+                                            >
+                                                <img
+                                                    src="./assets/img/post_like.svg"
+                                                    alt=""
+                                                />
+                                                <p>155</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <a class="post__link__show" href="">
+                                <div class="post__comment__show">
+                                    Show More
+                                </div>
+                            </a>
+                        </div>
+                        <div class="post">
+                            <div class="post__title">
+                                <img
+                                    src="./assets/img/post_av.svg"
+                                    alt="post-avatar"
+                                />
+                                <div class="post__title__disc">
+                                    <strong>Lorem ipsum dolor </strong>
+                                    <p>35 minutes ago</p>
+                                </div>
+                                <div class="post__title__more">
+                                    <div class="post__title__more__dot"></div>
+                                    <div class="post__title__more__dot"></div>
+                                    <div class="post__title__more__dot"></div>
+                                </div>
+                            </div>
+                            <div class="post__image">
+                                <img
+                                    class="post__main__image"
+                                    src="./assets/img/post__img.svg"
+                                    alt="image-of-post"
+                                />
+                                <p class="post__image__disc">
+                                    Lorem ipsum dolor sit amet consectetur.
+                                    Consequat sapien tincidunt ultrices faucibus
+                                    elit. Quis leo nunc aliquam tortor faucibus.
+                                    Viverra aliquet sit tristique dolor sit nunc
+                                    ultricies feugiat.
+                                </p>
+                                <div class="post__func">
+                                    <div class="post__func__ux">
+                                        <div class="post__func__point">
+                                            <img
+                                                src="./assets/img/post_com.svg"
+                                                alt="comment"
+                                            />
+                                            <p>1.2k</p>
+                                        </div>
+                                        <div class="post__func__point">
+                                            <img
+                                                src="./assets/img/post_like.svg"
+                                                alt="like"
+                                            />
+                                            <p>1.2k</p>
+                                        </div>
+                                        <div class="post__func__point">
+                                            <img
+                                                src="./assets/img/post_watch.svg"
+                                                alt="vatch"
+                                            />
+                                            <p>1.2k</p>
+                                        </div>
+                                    </div>
+                                    <div class="post__func__save">
+                                        <img
+                                            src="./assets/img/post_save.svg"
+                                            alt="save-the-post"
+                                        />
+                                        <img
+                                            src="./assets/img/post_ex.svg"
+                                            alt="export-post"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post__comment">
+                                <div class="post__comment__item">
+                                    <img
+                                        class="post__comment__item__img"
+                                        src="./assets/img/post_com_av.svg"
+                                        alt="avater-of-commentator"
+                                    />
+                                    <div class="post__comment__content">
+                                        <p class="post__comment__title">
+                                            Lorem ipsum dolor
+                                        </p>
+                                        <p class="post__comment__disc">
+                                            Lorem ipsum dolor sit amet
+                                            consectetur. Consequat sapien
+                                            tincidunt ultrices faucibus elit.
+                                        </p>
+                                        <div class="post__comment__footer">
+                                            <div
+                                                class="post__comment__footer__func"
+                                            >
+                                                <span>5 minutes ago</span>
+                                                <span id="reply">Reply</span>
+                                                <span id="forward"
+                                                    >Forward</span
+                                                >
+                                            </div>
+                                            <div
+                                                class="post__comment__footer__like"
+                                            >
+                                                <img
+                                                    src="./assets/img/post_like.svg"
+                                                    alt="comment-like"
+                                                />
+                                                <p>155</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post__comment__item">
+                                    <img
+                                        class="post__comment__item__img"
+                                        src="./assets/img/post_com_av.svg"
+                                        alt="avater-of-commentator"
+                                    />
+                                    <div class="post__comment__content">
+                                        <p class="post__comment__title">
+                                            Lorem ipsum dolor
+                                        </p>
+                                        <p class="post__comment__disc">
+                                            Lorem ipsum dolor sit amet
+                                            consectetur. Consequat sapien
+                                            tincidunt ultrices faucibus elit.
+                                        </p>
+                                        <div class="post__comment__footer">
+                                            <div
+                                                class="post__comment__footer__func"
+                                            >
+                                                <span>5 minutes ago</span>
+                                                <span id="reply">Reply</span>
+                                                <span id="forward"
+                                                    >Forward</span
+                                                >
+                                            </div>
+                                            <div
+                                                class="post__comment__footer__like"
+                                            >
+                                                <img
+                                                    src="./assets/img/post_like.svg"
+                                                    alt=""
+                                                />
+                                                <p>155</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post__comment__item">
+                                    <img
+                                        class="post__comment__item__img"
+                                        src="./assets/img/post_com_av.svg"
+                                        alt="avater-of-commentator"
+                                    />
+                                    <div class="post__comment__content">
+                                        <p class="post__comment__title">
+                                            Lorem ipsum dolor
+                                        </p>
+                                        <p class="post__comment__disc">
+                                            Lorem ipsum dolor sit amet
+                                            consectetur. Consequat sapien
+                                            tincidunt ultrices faucibus elit.
+                                        </p>
+                                        <div class="post__comment__footer">
+                                            <div
+                                                class="post__comment__footer__func"
+                                            >
+                                                <span>5 minutes ago</span>
+                                                <span id="reply">Reply</span>
+                                                <span id="forward"
+                                                    >Forward</span
+                                                >
+                                            </div>
+                                            <div
+                                                class="post__comment__footer__like"
+                                            >
+                                                <img
+                                                    src="./assets/img/post_like.svg"
+                                                    alt=""
+                                                />
+                                                <p>155</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <a class="post__link__show" href="">
+                                <div class="post__comment__show">
+                                    Show More
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section class="panel">
+                    <div class="container panel__container">
+                        <div class="panel__sugg panel__item">
+                            <h2>Suggested for you</h2>
+                            <div class="panel__sugg__list">
+                                <div class="panel__sugg__item">
+                                    <img src="./assets/img/rib__sugg.svg" alt="">
+                                    <div class="panel__sugg__item__disc">
+                                        <strong>Lorem ipsum</strong>
+                                        <p>Egestas nisi convallis</p>
+                                    </div>
+                                    <button class="panel__sugg__button">Add to friend</button>
+                                </div>
+                                <div class="panel__sugg__item">
+                                    <img src="./assets/img/rib__sugg.svg" alt="">
+                                    <div class="panel__sugg__item__disc">
+                                        <strong>Lorem ipsum</strong>
+                                        <p>Egestas nisi convallis</p>
+                                    </div>
+                                    <button class="panel__sugg__button">Add to friend</button>
+                                </div>
+                                <div class="panel__sugg__item">
+                                    <img src="./assets/img/rib__sugg.svg" alt="">
+                                    <div class="panel__sugg__item__disc">
+                                        <strong>Lorem ipsum</strong>
+                                        <p>Egestas nisi convallis</p>
+                                    </div>
+                                    <button class="panel__sugg__button">Add to friend</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel__rec panel__item">
+                            <h2>Recommendations</h2>
+                            <div class="panel__rec__list">
+                                <div class="panel__rec__item">
+                                    <div class="panel__rec__img">
+                                        <img src="./assets/img/rec_img.svg" alt="">
+                                        <img src="./assets/img/rec_img.svg" alt="">
+                                        <img src="./assets/img/rec_img.svg" alt="">
+                                    </div>
+                                    <h3>Modern</h3>
+                                    <p>179.5k publications</p>
+                                </div>
+                                <div class="panel__rec__item">
+                                    <div class="panel__rec__img">
+                                        <img src="./assets/img/rec_img.svg" alt="">
+                                        <img src="./assets/img/rec_img.svg" alt="">
+                                        <img src="./assets/img/rec_img.svg" alt="">
+                                    </div>
+                                    <h3>Modern</h3>
+                                    <p>179.5k publications</p>
+                                </div>
+                                <div class="panel__rec__item">
+                                    <div class="panel__rec__img">
+                                        <img src="./assets/img/rec_img.svg" alt="">
+                                        <img src="./assets/img/rec_img.svg" alt="">
+                                        <img src="./assets/img/rec_img.svg" alt="">
+                                    </div>
+                                    <h3>Modern</h3>
+                                    <p>179.5k publications</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <br /><br /><br /><br /><br />
+        </main>
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="footer__content">
+                    <img src="./assets/img/logo.svg" alt="logo-of-product">
+                    <div class="footer__search">
+                        <img src="./assets/img/Search.svg" alt="">
+                        <input type="text" placeholder="Search">
+                    </div>
+                    <div class="footer__func">
+                        <img src="./assets/img/post_save.svg" alt="">
+                        <img src="./assets/img/prof__com.svg" alt="">
+                        <img src="./assets/img/post_not.svg" alt="">
+                        <div class="footer__func__prof">
+                            <img src="./assets/img/prof__av.svg" alt="">
+                            <p>Profile</p>
+                        </div>
+                        <div class="footen__func__create">
+                            <button><img src="./assets/img/icon-plus.svg" alt="plus"> <span>Create</span></button>
+                        </div>
+                    </div>
+                    <div class="footer__menu">
+                        <div class="footer__menu__container">
+                            <div class="footer__anim">
+
+                            </div>
+                            <div id="Creative" class="footer__menu__item active">
+                                Creative
+                            </div>
+                            <div id="Sale" class="footer__menu__item">
+                                Sale
+                            </div>
+                            <div id="Communication" class="footer__menu__item">
+                                Communication
+                            </div>
+                            <div id="magicBall" class="footer__menu__item">
+                                <img src="./assets/img/footer_ball.svg" alt="magic-ball">
+                            </div>
+                            <div class="footer__menu__mobile">
+                                <p>Creative</p>
+                                <img class="footer__menu__ball__mobile " src="./assets/img/magic_ball_mob.svg" alt="">
+                                <div class="footer__menu__icon">
+                                    <span class="footer-line"></span>
+                                    <span class="footer-line"></span>
+                                    <span class="footer-line"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./assets/js/lib/jquery-3.6.3.min.js"></script>
+        <script src="./assets/js/lib/slick.min.js"></script>
+
+        <script src="./assets/js/header.js"></script>
+        <script src="./assets/js/footer.js"></script>
+    </body>
 </html>
